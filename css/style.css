@@ -7,6 +7,7 @@
 h1 {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: white;
 }
 
 body {
@@ -29,11 +30,17 @@ body {
 	 text-align: center;
  }
 
+ 
  .hand-written-font {
-	font-family: "Cookie", Helvetica, sans-serif;
-	color: maroon;
+	/* font-family: "Cookie", Helvetica, sans-serif; */
+	font-family: "Berkshire Swash", Helvetica, sans-serif;
+	
+	color: black;
 	text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
-	font-size: 40px;
+	font-size: 30px;
+	border: 5px outset;
+	padding: 10px;
+	margin: 10px;
   }
 
 .navbar {
@@ -42,4 +49,21 @@ body {
 
 .navbar a {
     color: white;
+}
+
+.active a {
+	color: gold;
+}
+
+.szukseges-eszkozok {
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 1px maroon;
+	/* display: flex;
+    justify-content: center; */
+}
+
+#tablazat {
+	margin-top: 10px;
 }
