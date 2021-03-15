@@ -98,3 +98,6 @@ address {
 	font-weight: bold;
 }
 
+.mapouter {
+	margin: 20px;
+}
