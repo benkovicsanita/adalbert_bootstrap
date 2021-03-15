@@ -1,8 +1,5 @@
-.beallitasok {
-	border: 15px solid #333;
-	width: 50%;
-	margin: 0 auto;
-}
+
+/* Adalbert Főoldal: */
 
 h1 {
     text-align: center;
@@ -26,11 +23,14 @@ body {
     padding: 50px;
  }
 
- address {
-	 text-align: center;
+ .fooldal-szoveg {
+	 font-size: 18px;
+	 color: black;
+	 font-weight: normal;
+	 text-align: justify;
+	 
  }
 
- 
  .hand-written-font {
 	/* font-family: "Cookie", Helvetica, sans-serif; */
 	font-family: "Berkshire Swash", Helvetica, sans-serif;
@@ -41,6 +41,7 @@ body {
 	border: 5px outset;
 	padding: 10px;
 	margin: 10px;
+	text-align: justify;
   }
 
 .navbar {
@@ -55,15 +56,39 @@ body {
 	color: gold;
 }
 
+/* Órarend aloldal: */
+
 .szukseges-eszkozok {
 	width: fit-content;
 	margin-left: auto;
 	margin-right: auto;
-	border: solid 1px maroon;
-	/* display: flex;
-    justify-content: center; */
+	border: outset 5px;
+	
 }
 
 #tablazat {
 	margin-top: 10px;
 }
+
+/* Galéria aloldal: */
+
+.beallitasok {
+	border: 10px outset maroon;
+	width: 50%;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+}
+
+/* Elérhetőségeink alolda: */
+ 
+address {
+	text-align: center;
+}
+
